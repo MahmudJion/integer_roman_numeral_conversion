@@ -36,20 +36,20 @@ Again, 400 (CD) and 900 (CM) follow the standard subtractive pattern.
 Many numbers include hundreds, units and tens. The Roman numeral system being basically decimal, each
 place is added in descending sequence from left to right, as with Arabic numerals. For example:
 
-   • 39 = “Thirty nine” (XXX+IX) = XXXIX
-   • 246 = “Two hundred and forty six” (CC+XL+VI) = CCXLVI
+   39 = “Thirty nine” (XXX+IX) = XXXIX
+   246 = “Two hundred and forty six” (CC+XL+VI) = CCXLVI
 
 As each place has its own notation there is no need for place keeping zeros, so missing places are ignored, as in Latin (and English) speech, thus:
 
-   • 207 = “Two hundred and seven” (CC+VII) = CCVII
-   • 1066 = “A thousand and sixty six” (M+LX+VI) = MLXVI
+   207 = “Two hundred and seven” (CC+VII) = CCVII
+   1066 = “A thousand and sixty six” (M+LX+VI) = MLXVI
 
 Roman numerals for large numbers are nowadays seen mainly in the form of year numbers (other uses are detailed later in this article), as in these examples:
 
-   • 1776 (M+DCC+LXX+VI) = MDCCLXXVI (the date written on the book held by the Statue of Liberty)
-   • 1954 (M+CM+L+IV) = MCMLIV (as in the trailer for the movie The Last Time I Saw Paris)
-   • 1990 (M+CM+XC) = MCMXC (used as the title of musical project Enigma’s debut album MCMXC a.D.)
-   • 2014 (MM+X+IV) = MMXIV (the year of the games of the XXII Olympic Winter Games in Sochi)
+   1776 (M+DCC+LXX+VI) = MDCCLXXVI (the date written on the book held by the Statue of Liberty)
+   1954 (M+CM+L+IV) = MCMLIV (as in the trailer for the movie The Last Time I Saw Paris)
+   1990 (M+CM+XC) = MCMXC (used as the title of musical project Enigma’s debut album MCMXC a.D.)
+   2014 (MM+X+IV) = MMXIV (the year of the games of the XXII Olympic Winter Games in Sochi)
 
 The Wikipedia entry contains more information about the number system, but we will focus on the above
 description.
