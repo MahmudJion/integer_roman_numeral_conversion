@@ -1,5 +1,5 @@
 /*
-Applicants’ programming exercises for admission fall 2021
+Applicants programming exercises for admission fall 2021
 Assignment: Integer to roman numeral, and back again
 
 assignment (b)
