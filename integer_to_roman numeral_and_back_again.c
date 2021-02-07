@@ -4,7 +4,7 @@ Assignment: Integer to roman numeral, and back again
 
 assignment (c)
 
-A program that uses the functions from (a) and (b) from assigment to write out all the numbers from
+A program that uses the functions from (a) and (b) from assignment to write out all the numbers from
 1 to 3999 as Roman numerals, and then convert them back to, and print them out, as integers.*/
 
 #include <stdio.h>
