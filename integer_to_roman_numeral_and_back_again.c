@@ -2,7 +2,7 @@
 Applicants programming exercises for admission fall 2021
 Assignment: Integer to roman numeral, and back again
 
-assignment (c)
+Assignment (c)
 
 A program that uses the functions from (a) and (b) from assignment to write out all the numbers from
 1 to 3999 as Roman numerals, and then convert them back to, and print them out, as integers.
@@ -128,14 +128,16 @@ int main(void) //main function for running the integer to roman function and rom
 
     for(number=1; number<4000; number++)
     {
-        printf("\nRoman numerals: %s", int_to_roman(number)); //displaying converted integer values
+        //displaying converted integer values
+        printf("\nRoman numerals: %s", int_to_roman(number)); 
     }
 
     for(number=1; number<4000; number++)
     {
         roman_Number[4000] = int_to_roman(number);
-
-        while(roman_Number[i]){ //checking the input value with while loop and call the conversion function for integer to roman
+        
+        //checking the input value with while loop and call the conversion function for integer to roman
+        while(roman_Number[i]){ 
              if(roman_to_int(roman_Number[i]) >= roman_to_int(roman_Number[i+1]))
                  number = number + roman_to_int(roman_Number[i]);
              else{
@@ -143,8 +145,9 @@ int main(void) //main function for running the integer to roman function and rom
              }
              i++;
         }
-
-        printf("\nInteger Values: %d",number); //displaying converted integer values
+        
+        //displaying converted integer values
+        printf("\nInteger Values: %d",number); 
 
     }
 
