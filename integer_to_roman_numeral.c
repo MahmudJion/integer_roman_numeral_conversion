@@ -2,7 +2,7 @@
 Applicants programming exercises for admission fall 2021
 Assignment: Integer to roman numeral, and back again
 
-assignment (a)
+Assignment (a)
 
 Implementation of a C function int_to_roman() that converts an integer to a roman numeral. The
 input is guaranteed to be within the range of 1 to 3999 (inclusive).
@@ -101,14 +101,16 @@ static char *int_to_roman(int val)  // function to convert integer to roman nume
 int main(void) //main function for running the integer to roman function
  {
 	int number;
-	printf("Enter an integer: "); //user input for an integer value
+    //user input for an integer value
+	printf("Enter an integer: "); 
     scanf("%d",&number);
 
-
-    if(number<=1 || number>=4000){ //checking the input value in the range of 1 to 3999
+    //checking the input value in the range of 1 to 3999
+    if(number<=1 || number>=4000){ 
         printf("Input must be within the range from 1 to 3999.\n");
     }else{
-        printf("\nRoman numeral: %s", int_to_roman(number)); //call the conversion function integer to roman as the input value in range of 1 - 3999
+        //call the conversion function integer to roman as the input value in range of 1 - 3999
+        printf("\nRoman numeral: %s", int_to_roman(number));
     }
 
     return 0;
