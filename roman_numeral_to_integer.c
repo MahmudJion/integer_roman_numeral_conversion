@@ -2,7 +2,7 @@
 Applicants programming exercises for admission fall 2021
 Assignment: Integer to roman numeral, and back again
 
-assignment (b)
+Assignment (b)
 
 Implementation of a C function roman_to_int() that takes the Roman numerals produced by the
 function int_to_roman() in assignment (a) and convert them back to integers. The input is guaranteed
@@ -14,16 +14,19 @@ to be within the same range as in (a).
 
 int roman_to_int(char); //initialize conversion function with type
 
-int main(){ //main function where conversion of roman to integer function program run
+//main function where conversion of roman to integer function program run
+int main(){ 
 
     char roman_Number[1000];
     int i=0;
     long int number =0;
 
-    printf("Enter any roman number with valid numerals are I, V, X, L, C, D, M:  \n"); //user input a roman number with valid numerals
+    //user input a roman number with valid numerals
+    printf("Enter any roman number with valid numerals are I, V, X, L, C, D, M:  \n"); 
     scanf("%s",roman_Number);
 
-    while(roman_Number[i]){ //checking the input value with while loop and call the conversion function for integer to roman
+    //checking the input value with while loop and call the conversion function for integer to roman
+    while(roman_Number[i]){ 
          if(roman_to_int(roman_Number[i]) < 0){
              printf("Invalid roman digit : %c",roman_Number[i]);
              return 0;
@@ -43,7 +46,9 @@ int main(){ //main function where conversion of roman to integer function progra
          i++;
     }
 
-    if(number <4000){ //checking the output value with in range of 1 to 3999
+
+    //checking the output value with in range of 1 to 3999
+    if(number <4000){ 
         printf("Its integer value is: %ld",number);
     } else {
         printf("Output data need be within the range from 1 to 3999.\n");
@@ -53,7 +58,8 @@ int main(){ //main function where conversion of roman to integer function progra
 
 }
 
-int roman_to_int(char numeral){ // function to converting roman numeral
+// function to converting roman numeral
+int roman_to_int(char numeral){
 
     int value=0;
 
