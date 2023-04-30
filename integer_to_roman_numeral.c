@@ -102,11 +102,11 @@ int main(void) //main function for running the integer to roman function
  {
 	int number;
     //user input for an integer value
-	printf("Enter an integer: "); 
+	printf("Enter an integer: ");
     scanf("%d",&number);
 
     //checking the input value in the range of 1 to 3999
-    if(number<=1 || number>=4000){ 
+    if(number<=1 || number>=4000){
         printf("Input must be within the range from 1 to 3999.\n");
     }else{
         //call the conversion function integer to roman as the input value in range of 1 - 3999
