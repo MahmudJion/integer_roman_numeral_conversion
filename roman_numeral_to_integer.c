@@ -15,18 +15,18 @@ to be within the same range as in (a).
 int roman_to_int(char); //initialize conversion function with type
 
 //main function where conversion of roman to integer function program run
-int main(){ 
+int main(){
 
     char roman_Number[1000];
     int i=0;
     long int number =0;
 
     //user input a roman number with valid numerals
-    printf("Enter any roman number with valid numerals are I, V, X, L, C, D, M:  \n"); 
+    printf("Enter any roman number with valid numerals are I, V, X, L, C, D, M:  \n");
     scanf("%s",roman_Number);
 
     //checking the input value with while loop and call the conversion function for integer to roman
-    while(roman_Number[i]){ 
+    while(roman_Number[i]){
          if(roman_to_int(roman_Number[i]) < 0){
              printf("Invalid roman digit : %c",roman_Number[i]);
              return 0;
@@ -48,7 +48,7 @@ int main(){
 
 
     //checking the output value with in range of 1 to 3999
-    if(number <4000){ 
+    if(number <4000){
         printf("Its integer value is: %ld",number);
     } else {
         printf("Output data need be within the range from 1 to 3999.\n");
