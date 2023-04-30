@@ -129,15 +129,15 @@ int main(void) //main function for running the integer to roman function and rom
     for(number=1; number<4000; number++)
     {
         //displaying converted integer values
-        printf("\nRoman numerals: %s", int_to_roman(number)); 
+        printf("\nRoman numerals: %s", int_to_roman(number));
     }
 
     for(number=1; number<4000; number++)
     {
         roman_Number[4000] = int_to_roman(number);
-        
+
         //checking the input value with while loop and call the conversion function for integer to roman
-        while(roman_Number[i]){ 
+        while(roman_Number[i]){
              if(roman_to_int(roman_Number[i]) >= roman_to_int(roman_Number[i+1]))
                  number = number + roman_to_int(roman_Number[i]);
              else{
@@ -145,9 +145,9 @@ int main(void) //main function for running the integer to roman function and rom
              }
              i++;
         }
-        
+
         //displaying converted integer values
-        printf("\nInteger Values: %d",number); 
+        printf("\nInteger Values: %d",number);
 
     }
 
